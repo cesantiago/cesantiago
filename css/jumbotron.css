@@ -1,0 +1,36 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+ul.nav{
+	font-family: 'Poppins', sans-serif;
+}
+
+.jumbotron {
+	text-align: center;
+	background-image: url(../images/hall.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family: 'Poppins', sans-serif;
+}
+
+.jumbotron h1 {
+	color: #fff;
+	margin-top: 0px;
+	margin-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+
+.jumbotron p {
+	font-weight: 100;
+	color: #fff;
+	margin-bottom: 30px;
+}
+
+.btn-lg {
+	font-size: 36px;
+}

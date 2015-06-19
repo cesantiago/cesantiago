@@ -1,0 +1,145 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+ul.nav{
+	font-family: 'Poppins', sans-serif;
+}
+
+hr{
+	border-color: #e74c3c;
+	width: 75px;
+	margin-top: 15px;
+}
+
+footer{
+	color: #fff;
+	background-color: #e74c3c;
+	padding-top: 200px;
+	padding-bottom: 25px;
+}
+
+
+#join-us{
+	background-color: #f5f5f5;
+}
+
+.jumbotron {
+	text-align: center;
+	background-image: url(../images/hall3b.jpg);
+	background-position: center;
+	font-family: 'Poppins', sans-serif;
+}
+
+.jumbotron h1 {
+	color: #fff;
+	margin-top: 0px;
+	margin-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+
+.jumbotron p {
+	font-weight: 100;
+	color: #fff;
+	margin-bottom: 30px;
+}
+
+.btn-lg {
+	font-size: 36px;
+}
+
+.homepage{
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.homepage h2, .homepage h3{
+	color: #e74c3c;
+	text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
+}
+.homepage h2{
+	font-size: 30px;
+}
+
+.homepage h3{
+	font-size: 28px;
+}
+
+.homepage p{
+	font-size: 21px;
+}
+
+.homepage a{
+	color:#e74c3c;
+}
+
+.homepage a:hover{
+	color:#e74c3c;
+	text-decoration: none;
+	opacity: .8;
+}
+
+.homepage hr{
+	border-color: #e74c3c;
+	width: 75px;
+	margin-top: 15px;
+}
+
+/* Responsive Styling */
+
+@media (max-width: 1199px){
+  
+  .jumbotron h1{
+  	font-size: 56px;
+  	margin-bottom: 25px;
+  }
+	
+}
+
+@media (max-width: 992px){
+  
+  .jumbotron h1{
+  	font-size: 50px;
+  	margin-bottom: 25px;
+  }
+
+  .jumbotron p{
+  	font-size: 18px;  	
+  }
+  .btn-lg{
+		font-size: 28px;
+	}
+
+	@media (max-width: 766px){
+  
+  .jumbotron h1{
+  	font-size: 30px;
+  	margin-bottom: 25px;
+  }
+
+  .btn-lg{
+		font-size: 20px;
+	}
+
+		@media (max-width: 310px){
+  
+  .jumbotron h1{
+  	font-size: 30px;
+  	margin-bottom: 25px;
+  }
+
+  .jumbotron p{
+  	font-size: 13px
+  }
+
+  .btn-lg{
+		font-size: 17px;
+	}
+}
