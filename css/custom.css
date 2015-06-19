@@ -116,8 +116,9 @@ footer{
   .btn-lg{
 		font-size: 28px;
 	}
+}
 
-	@media (max-width: 766px){
+@media (max-width: 766px){
   
   .jumbotron h1{
   	font-size: 30px;
@@ -127,8 +128,9 @@ footer{
   .btn-lg{
 		font-size: 20px;
 	}
+}
 
-		@media (max-width: 310px){
+@media (max-width: 310px){
   
   .jumbotron h1{
   	font-size: 30px;
