@@ -33,6 +33,10 @@ footer{
 	font-family: 'Poppins', sans-serif;
 }
 
+.jumbotron .container{
+	margin-top: 300px;
+}
+
 .jumbotron h1 {
 	color: #fff;
 	margin-top: 0px;
@@ -46,10 +50,6 @@ footer{
 	font-weight: 100;
 	color: #fff;
 	margin-bottom: 30px;
-}
-
-.jumbotron .container{
-	margin-top: 300px;
 }
 
 .btn-lg {
@@ -120,7 +120,6 @@ footer{
   .btn-lg{
 		font-size: 28px;
 	}
-}
 
 @media (max-width: 766px){
   
@@ -129,14 +128,16 @@ footer{
   	margin-bottom: 25px;
   }
 
+    .jumbotron .container{
+	margin-top: 75px;
+}
+
   .btn-lg{
 		font-size: 20px;
 	}
-}
 
-@media (max-width: 360px){
-
-
+@media (max-width: 310px){
+  
   .jumbotron h1{
   	font-size: 30px;
   	margin-bottom: 25px;
@@ -146,6 +147,9 @@ footer{
   	font-size: 13px
   }
 
+  .jumbotron .container{
+	margin-top: 75px;
+}
   .btn-lg{
 		font-size: 17px;
 	}
