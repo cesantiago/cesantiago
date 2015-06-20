@@ -48,6 +48,10 @@ footer{
 	margin-bottom: 30px;
 }
 
+.jumbotron .container{
+	margin-top: 300px;
+}
+
 .btn-lg {
 	font-size: 36px;
 }
