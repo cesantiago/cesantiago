@@ -138,6 +138,10 @@ footer{
 
 @media (max-width: 370px){
   
+  .jumbotron{
+  	height: 100vh;
+  }
+  
   .jumbotron h1{
   	font-size: 30px;
   	margin-bottom: 25px;
