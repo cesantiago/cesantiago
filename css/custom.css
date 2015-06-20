@@ -27,9 +27,9 @@ footer{
 }
 
 .jumbotron {
+	height: 100vh;
 	text-align: center;
-	background-image: url('../images/hall3f.png');
-	background-size: 100% 100%;
+	background-image: url('../images/hall3b.jpg');
 	font-family: 'Poppins', sans-serif;
 }
 
