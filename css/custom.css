@@ -141,10 +141,11 @@ footer{
   .jumbotron h1{
   	font-size: 25px;
   	margin-bottom: 25px;
+  	padding: 0;
   }
 
   .jumbotron p{
-  	font-size: 18px
+  	font-size: 14px
   }
 
   .jumbotron .container{
