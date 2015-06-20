@@ -144,13 +144,13 @@ footer{
   }
 
   .jumbotron p{
-  	font-size: 14px
+  	font-size: 18px
   }
 
   .jumbotron .container{
 	margin-top: 25px;
 }
   .btn-lg{
-		font-size: 10px;
+		font-size: 12px;
 	}
 }
