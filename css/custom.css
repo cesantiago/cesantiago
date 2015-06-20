@@ -29,6 +29,7 @@ footer{
 .jumbotron {
 	text-align: center;
 	background-image: url('../images/hall3f.png');
+	background-size: 100% 100%;
 	font-family: 'Poppins', sans-serif;
 }
 
@@ -129,8 +130,9 @@ footer{
 	}
 }
 
-@media (max-width: 310px){
-  
+@media (max-width: 360px){
+
+
   .jumbotron h1{
   	font-size: 30px;
   	margin-bottom: 25px;
