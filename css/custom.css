@@ -139,13 +139,13 @@ footer{
 @media (max-width: 370px){
   
   .jumbotron h1{
-  	font-size: 25px;
+  	font-size: 30px;
   	margin-bottom: 25px;
   	padding: 0;
   }
 
   .jumbotron p{
-  	font-size: 14px;
+  	font-size: 15px;
   	padding :0 3px;
   }
 
@@ -153,6 +153,6 @@ footer{
 	margin-top: 25px;
 }
   .btn-lg{
-		font-size: 12px;
+		font-size: 20px;
 	}
 }
