@@ -52,6 +52,10 @@ footer{
 	margin-bottom: 30px;
 }
 
+.modal-content{
+	top: 25vh;
+}
+
 .modal-content button.close{
 	position: absolute;
 	right: 5px;
