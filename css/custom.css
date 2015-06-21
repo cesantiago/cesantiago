@@ -190,6 +190,13 @@ footer{
   .jumbotron .container{
 	margin-top: 25px;
 }
+
+.modal-content iframe{
+	margin-top: 10px;
+	margin-bottom: 15px;
+	width: 305px;
+}
+
   .btn-lg{
 		font-size: 20px;
 	}
