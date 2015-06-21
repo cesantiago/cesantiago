@@ -120,6 +120,47 @@ footer{
 
 /* Responsive Styling */
 
+/* Standard 7" 1024x600 tablet (Kindle Fire) */
+@media
+  screen and (-webkit-device-pixel-ratio: 1) and (device-width: 1024px) and (max-device-height: 600px) and (orientation: landscape),
+  screen and (-webkit-device-pixel-ratio: 1) and (device-width: 600px) and (max-device-height: 1024px) and (orientation: portrait),
+  screen and (-o-device-pixel-ratio: 1) and (device-width: 1024px) and (max-device-height: 600px) and (orientation: landscape),
+  screen and (-o-device-pixel-ratio: 1) and (device-width: 600px) and (max-device-height: 1024px) and (orientation: portrait),
+  screen and (device-pixel-ratio: 1) and (device-width: 1024px) and (max-device-height: 600px) and (orientation: landscape),
+  screen and (device-pixel-ratio: 1) and (device-width: 600px) and (max-device-height: 1024px) and (orientation: portrait) {
+        
+	.jumbotron{
+		height: 100vh;
+	}
+
+	.jumbotron h1{
+		font-size: 30px;
+		margin-bottom: 25px;
+		padding: 0;
+	}
+
+	.jumbotron p{
+		font-size: 15px; 
+		padding :0 3px;
+	}
+
+	.jumbotron .container{
+		margin-top: 25px;
+	}
+
+	.modal-content iframe{
+		margin-top: 10px;
+		margin-bottom: 15px;
+		width: 305px;
+	}
+
+	.btn-lg{
+		font-size: 20px;
+	}
+
+}
+
+
 @media (max-width: 1199px){
 
 	.jumbotron{
