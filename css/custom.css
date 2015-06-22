@@ -34,7 +34,11 @@ footer{
 }
 
 .jumbotron .container{
-	margin-top: 300px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	/* bring your own prefixes */
+	transform: translate(-50%, -50%);
 }
 
 .jumbotron h1 {
@@ -140,10 +144,6 @@ footer{
 		padding :0 3px;
 		}
 
-		.jumbotron .container{
-		margin-top: 5px;
-		}
-
 		.modal-content iframe{
 		margin-top: 10px;
 		margin-bottom: 15px;
@@ -172,10 +172,6 @@ footer{
 		padding :0 3px;
 		}
 
-		.jumbotron .container{
-		margin-top: 25px;
-		}
-
 		.modal-content iframe{
 		margin-top: 10px;
 		margin-bottom: 15px;
@@ -196,10 +192,6 @@ footer{
 		.jumbotron h1{
 		font-size: 30px;
 		margin-bottom: 25px;
-		}
-
-		.jumbotron .container{
-		margin-top: 55px;
 		}
 
 		.btn-lg{
@@ -232,10 +224,6 @@ footer{
 		height: 100vh;
 		}
 
-		.jumbotron .container{
-		margin-top: 75px;
-		}
-
 		.jumbotron h1{
 		font-size: 56px;
 		margin-bottom: 25px;
@@ -247,10 +235,6 @@ footer{
 		height: 100vh;
 		}
 
-		.jumbotron .container{
-		margin-top:100px;
-		}
-
 		.jumbotron h1{
 		font-size: 56px;
 		margin-bottom: 25px;
@@ -260,10 +244,6 @@ footer{
         @media only screen and (min-width : 2560px) {
 		.jumbotron{
 		height: 100vh;
-		}
-
-		.jumbotron .container{
-		margin-top: 300px;
 		}
 
 		.jumbotron h1{
