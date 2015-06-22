@@ -206,6 +206,21 @@ footer{
 		}
 
 		.jumbotron .container{
+		margin-top: 200px;
+		}
+
+		.jumbotron h1{
+		font-size: 56px;
+		margin-bottom: 25px;
+		}
+    }
+
+        @media only screen and (min-width : 2560px) {
+		.jumbotron{
+		height: 100vh;
+		}
+
+		.jumbotron .container{
 		margin-top: 300px;
 		}
 
