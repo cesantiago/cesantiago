@@ -247,6 +247,28 @@ footer{
     }
 
     /* Small Devices, Tablets */
+        @media only screen and (min-width : 600px) {
+		.jumbotron{
+		height: 100vh;
+		}
+
+		.jumbotron h1{
+		font-size: 30px;
+		margin-bottom: 25px;
+		}
+
+		.jumbotron .container{
+		margin-top: 55px;
+		}
+
+		.modal-content iframe{
+		width: 545px;
+		}
+
+		.btn-lg{
+		font-size: 20px;
+		}
+    }
     @media only screen and (min-width : 768px) {
 		.jumbotron{
 		height: 100vh;
