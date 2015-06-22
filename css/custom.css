@@ -122,122 +122,125 @@ footer{
 
 /* Standard 7" 1024x600 tablet (Kindle Fire) */
 
-@media screen and (-webkit-device-pixel-ratio: 1) and (device-width: 1024px) and (max-height: 600px) and (orientation: landscape),screen and (-webkit-device-pixel-ratio: 1) and (device-width: 600px) and (max-device-height: 1024px) and (orientation: portrait),screen and (-o-device-pixel-ratio: 1) and (device-width: 1024px) and (max-device-height: 600px) and (orientation: landscape),screen and (-o-device-pixel-ratio: 1) and (device-width: 600px) and (max-device-height: 1024px) and (orientation: portrait),screen and (device-pixel-ratio: 1) and (device-width: 1024px) and (max-device-height: 600px) and (orientation: landscape),screen and (device-pixel-ratio: 1) and (device-width: 600px) and (max-device-height: 1024px) and (orientation: portrait)  {
-        
-	.jumbotron{
-		height: 100vh;
-	}
+	@media screen and (-webkit-device-pixel-ratio: 1) and (device-width: 1024px) and (max-height: 600px) and (orientation: landscape),screen and (-webkit-device-pixel-ratio: 1) and (device-width: 600px) and (max-device-height: 1024px) and (orientation: portrait),screen and (-o-device-pixel-ratio: 1) and (device-width: 1024px) and (max-device-height: 600px) and (orientation: landscape),screen and (-o-device-pixel-ratio: 1) and (device-width: 600px) and (max-device-height: 1024px) and (orientation: portrait),screen and (device-pixel-ratio: 1) and (device-width: 1024px) and (max-device-height: 600px) and (orientation: landscape),screen and (device-pixel-ratio: 1) and (device-width: 600px) and (max-device-height: 1024px) and (orientation: portrait)  {
 
-	.jumbotron h1{
+		.jumbotron{
+		height: 100vh;
+		}
+
+		.jumbotron h1{
 		font-size: 30px;
 		margin-bottom: 25px;
 		padding: 0;
-	}
+		}
 
-	.jumbotron p{
+		.jumbotron p{
 		font-size: 15px; 
 		padding :0 3px;
-	}
+		}
 
-	.jumbotron .container{
+		.jumbotron .container{
 		margin-top: 0px;
-	}
+		}
 
-	.modal-content iframe{
+		.modal-content iframe{
 		margin-top: 10px;
 		margin-bottom: 15px;
 		width: 305px;
-	}
+		}
 
-	.btn-lg{
+		.btn-lg{
 		font-size: 20px;
+		}
+
 	}
 
-}
+    /*==========  Mobile First Method  ==========*/
 
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+        
+    }
 
-@media (max-width: 1199px){
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+		.jumbotron{
+		height: 100vh;
+		}
 
-	.jumbotron{
-	height: 100vh;
-	}
+		.jumbotron h1{
+		font-size: 30px;
+		margin-bottom: 25px;
+		padding: 0;
+		}
 
-	.jumbotron h1{
-	font-size: 56px;
-	margin-bottom: 25px;
-	}
+		.jumbotron p{
+		font-size: 15px; 
+		padding :0 3px;
+		}
 
-}
+		.jumbotron .container{
+		margin-top: 25px;
+		}
 
-@media (max-width: 992px){
+		.modal-content iframe{
+		margin-top: 10px;
+		margin-bottom: 15px;
+		width: 305px;
+		}
 
-	.jumbotron{
-	height: 100vh;
-	}
-
-	.jumbotron h1{
-	font-size: 50px;
-	margin-bottom: 25px;
-	}
-
-	.jumbotron p{
-	font-size: 18px;  	
-	}
-	.btn-lg{
-	font-size: 28px;
-	}
-
-}
-
-@media (max-width: 766px){
-
-	.jumbotron{
-	height: 100vh;
-	}
-
-	.jumbotron h1{
-	font-size: 30px;
-	margin-bottom: 25px;
-	}
-
-	.jumbotron .container{
-	margin-top: 55px;
-	}
-
-	.btn-lg{
-	font-size: 20px;
-	}
-
-}
-
-@media (max-width: 370px){
-  
-  .jumbotron{
-  	height: 100vh;
-  }
-
-  .jumbotron h1{
-  	font-size: 30px;
-  	margin-bottom: 25px;
-  	padding: 0;
-  }
-
-  .jumbotron p{
-  	font-size: 15px; 
-  	padding :0 3px;
-  }
-
-  .jumbotron .container{
-	margin-top: 25px;
-}
-
-.modal-content iframe{
-	margin-top: 10px;
-	margin-bottom: 15px;
-	width: 305px;
-}
-
-  .btn-lg{
+		.btn-lg{
 		font-size: 20px;
-	}
-}
+		}
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+		.jumbotron{
+		height: 100vh;
+		}
+
+		.jumbotron h1{
+		font-size: 30px;
+		margin-bottom: 25px;
+		}
+
+		.jumbotron .container{
+		margin-top: 55px;
+		}
+
+		.btn-lg{
+		font-size: 20px;
+		}
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+		.jumbotron{
+		height: 100vh;
+		}
+
+		.jumbotron h1{
+		font-size: 50px;
+		margin-bottom: 25px;
+		}
+
+		.jumbotron p{
+		font-size: 18px;  	
+		}
+		.btn-lg{
+		font-size: 28px;
+		}
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+		.jumbotron{
+		height: 100vh;
+		}
+
+		.jumbotron h1{
+		font-size: 56px;
+		margin-bottom: 25px;
+		}
+    }
