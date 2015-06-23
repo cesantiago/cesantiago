@@ -238,7 +238,7 @@ footer{
 		}
 
 		.modal-content iframe{
-			width: 340px;
+			width: 585px;
 		}
 
 		.btn-lg{
@@ -259,7 +259,9 @@ footer{
 		.jumbotron .container{
 		margin-top: 55px;
 		}
-
+		.modal-content {
+		top: 0vh;
+		}
 		.modal-content iframe{
 		width: 560px;
 		}
