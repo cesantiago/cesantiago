@@ -1,7 +1,11 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
+html, body{
+	height: 100%;
+}
+
 body {
-  padding-top: 50px;
-  padding-bottom: 20px;
+	position: relative;
+	padding-top: 50px;
 }
 
 ul.nav{
@@ -15,23 +19,59 @@ hr{
 }
 
 footer{
+	position: relative;
 	color: #fff;
 	background-color: #e74c3c;
 	padding-top: 200px;
 	padding-bottom: 25px;
 }
 
+#form footer{
+	position: relative;
+	color: #fff;
+	background-color: #e74c3c;
+	margin-top: -150px;
+	clear: both;
+	padding-top: 200px;
+	padding-bottom: 25px;
+}
+
+#wrap-form{
+	min-height: 100%;
+}
+
+#main-form{
+	overflow: auto;
+	padding-bottom: 150px; /* this needs to be bigger than footer height*/
+}
+
+#main-form .btn-lg{
+	margin-top: 10px;
+	font-size: 18px;
+
+}
 
 #join-us{
 	background-color: #f5f5f5;
 }
 
-.container a:focus{
-	outline: none;
+#who-am-i .container.homepage{
+	margin: 25px auto;
+
 }
 
+#back-to-top .fa-3x{
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+}
+
+#back-to-top a{
+	color: #333;
+}
+
+
 .jumbotron {
-	height: 100vh;
 	text-align: center;
 	background-image: url('../images/hall3b.jpg');
 	font-family: 'Poppins', sans-serif;
@@ -56,9 +96,13 @@ footer{
 	margin-bottom: 30px;
 }
 
-.modal-content{
-	top: 25vh;
+.container a:focus{
+	outline: none;
 }
+
+/*.modal-content{
+	top: 25vh;
+} */
 
 .modal-content button.close{
 	position: absolute;
@@ -76,6 +120,14 @@ footer{
 .modal-content iframe{
 	margin-top: 10px;
 	margin-bottom: 15px;
+}
+
+.modal-dialog { /* centering an absolute element */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -300px;
+	margin-top: -139px;
 }
 
 .btn-lg {
@@ -128,9 +180,6 @@ footer{
     /*==========  Mobile First Method  ==========*/
 
         @media only screen and (min-width : 299px) {
-		.jumbotron{
-		height: 100vh;
-		}
 
 		.jumbotron h1{
 		font-size: 30px;
@@ -153,15 +202,15 @@ footer{
 
 		.btn-lg{
 		font-size: 20px;
+		}
+
+		.col-xs-4 {
+		width: 55%;
 		}        
     }
 
     /* Custom, iPhone 6 Retina */ 
     @media only screen and (min-width : 320px) {
-		.jumbotron{
-		height: 100vh;
-		}
-
 		.jumbotron h1{
 		font-size: 30px;
 		margin-bottom: 25px;
@@ -188,10 +237,6 @@ footer{
 
         /* Custom, iPhone 6 Retina */ 
     @media only screen and (min-width : 414px) {
-		.jumbotron{
-		height: 100vh;
-		}
-
 		.jumbotron h1{
 		font-size: 30px;
 		margin-bottom: 25px;
@@ -218,10 +263,6 @@ footer{
 
     /* Extra Small Devices, Phones */ 
     @media only screen and (min-width : 480px) {
-		.jumbotron{
-		height: 100vh;
-		}
-
 		.jumbotron h1{
 		font-size: 30px;
 		margin-bottom: 25px;
@@ -238,7 +279,7 @@ footer{
 		}
 
 		.modal-content iframe{
-			width: 585px;
+			width: 340px;
 		}
 
 		.btn-lg{
@@ -246,11 +287,9 @@ footer{
 		}
     }
 
-    @media only screen and (min-width : 768px) {
-		.jumbotron{
-		height: 100vh;
-		}
+    /* Small Devices, Tablets */
 
+    @media only screen and (min-width : 768px) {
 		.jumbotron h1{
 		font-size: 30px;
 		margin-bottom: 25px;
@@ -260,12 +299,12 @@ footer{
 		margin-top: 55px;
 		}
 
-		.modal-content {
-		top: 0vh;
-		}
-
 		.modal-content iframe{
 		width: 560px;
+		}
+
+		.col-sm-3 {
+		width: 48%;
 		}
 
 		.btn-lg{
@@ -275,10 +314,6 @@ footer{
 
     /* Medium Devices, Desktops */
     @media only screen and (min-width : 992px) {
-		.jumbotron{
-		height: 100vh;
-		}
-
 		.jumbotron h1{
 		font-size: 50px;
 		margin-bottom: 25px;
@@ -287,18 +322,17 @@ footer{
 		.jumbotron p{
 		font-size: 18px;  	
 		}
-		
 		.btn-lg{
 		font-size: 28px;
+		}
+
+		.col-md-2 {
+		  width: 35.666667%;
 		}
     }
 
     /* Large Devices, Wide Screens */
     @media only screen and (min-width : 1200px) {
-		.jumbotron{
-		height: 100vh;
-		}
-
 		.jumbotron .container{
 		margin-top: 75px;
 		}
@@ -307,42 +341,26 @@ footer{
 		font-size: 56px;
 		margin-bottom: 25px;
 		}
+
+		.col-lg-2 {
+		  width: 30.666667%;
+		}
     }
 
         @media only screen and (min-width : 1600px) and (min-height: 600px){
-		.jumbotron{
-		height: 100vh;
-		}
-
 		.jumbotron .container{
-		margin-top:100px;
+		margin:100px auto;
 		}
 
 		.jumbotron h1{
 		font-size: 56px;
 		margin-bottom: 25px;
-		}
-
-		.modal-content {
-		top: 14vh;
 		}
     }
 
         @media only screen and (min-width : 2560px) {
-		.jumbotron{
-		height: 100vh;
-		}
-
-		.jumbotron .container{
-		margin-top: 300px;
-		}
-
 		.jumbotron h1{
 		font-size: 56px;
 		margin-bottom: 25px;
-		}
-
-		.modal-content {
-		top: 40vh;
 		}
     }
