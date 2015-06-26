@@ -208,6 +208,11 @@ footer{
 			width: 230px;
 		}
 
+		.modal-dialog { /* centering an absolute element */
+		margin-left: -176px;
+		margin-top: -211px;
+		}
+
 		.btn-lg{
 		font-size: 20px;
 		}
@@ -238,6 +243,11 @@ footer{
 			width: 320px;
 		}
 
+		.modal-dialog { /* centering an absolute element */
+		margin-left: -176px;
+		margin-top: -211px;
+		}
+
 		.btn-lg{
 		font-size: 20px;
 		}        
@@ -262,6 +272,11 @@ footer{
 
 		.modal-content iframe{
 			width: 360px;
+		}
+
+		.modal-dialog { /* centering an absolute element */
+		margin-left: -191px;
+		margin-top: -215px;
 		}
 
 		.btn-lg{
