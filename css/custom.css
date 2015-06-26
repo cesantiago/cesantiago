@@ -36,6 +36,10 @@ footer{
 	padding-bottom: 25px;
 }
 
+#gallery .container{
+	margin-bottom: 150px;
+}
+
 #wrap-form{
 	min-height: 100%;
 }
@@ -49,10 +53,6 @@ footer{
 	margin-top: 10px;
 	font-size: 18px;
 
-}
-
-.gallery .row{
-	margin-top: 10px;
 }
 
 #join-us{
@@ -74,6 +74,9 @@ footer{
 	color: #333;
 }
 
+.gallery .row{
+	margin-top: 10px;
+}
 
 .jumbotron {
 	text-align: center;
