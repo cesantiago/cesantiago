@@ -24,6 +24,7 @@
 
     <!-- Custom Style for the gallery -->
     <link rel="stylesheet" type="text/css" href="css/gallery.css">
+    <link rel="stylesheet" type="text/css" href="css/lightbox.css">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -83,9 +84,81 @@
     </div><!-- /.modal -->
 
     <div class="container">
+        <h1>LightBox Gallery</h1>
+        <div class="gallery">
+            <div class="row">
+                <div class="col-lg-3">
+                    <a href="images/pics/1.jpg" data-title="First Title" data-lightbox="Random">
+                        <img src="images/pics/1.jpg" width="200px" class="img-thumbnail" />
+                    </a>
+                </div>
+                <div class="col-lg-3">
+                    <a href="images/pics/2.jpg" data-title="First Title" data-lightbox="Random">
+                        <img src="images/pics/2.jpg" width="200px" class="img-thumbnail" />
+                    </a>
+                </div>
+                <div class="col-lg-3">
+                    <a href="images/pics/3.jpg" data-title="First Title" data-lightbox="Random">
+                        <img src="images/pics/3.jpg" width="200px" class="img-thumbnail" />
+                    </a>
+                </div>
+                <div class="col-lg-3">
+                    <a href="images/pics/4.jpg" data-title="First Title" data-lightbox="Random">
+                        <img src="images/pics/4.jpg" width="200px" class="img-thumbnail" />
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <a href="images/pics/5.jpg" data-title="First Title" data-lightbox="Random">
+                        <img src="images/pics/5.jpg" width="200px" class="img-thumbnail" />
+                    </a>
+                </div>
+                <div class="col-lg-3">
+                    <a href="images/pics/6.jpg" data-title="First Title" data-lightbox="Random">
+                        <img src="images/pics/6.jpg" width="200px" class="img-thumbnail" />
+                    </a>
+                </div>
+                <div class="col-lg-3">
+                    <a href="images/pics/7.jpg" data-title="First Title" data-lightbox="Random">
+                        <img src="images/pics/7.jpg" width="200px" class="img-thumbnail" />
+                    </a>
+                </div>
+                <div class="col-lg-3">
+                    <a href="images/pics/8.jpg" data-title="First Title" data-lightbox="Random">
+                        <img src="images/pics/8.jpg" width="200px" class="img-thumbnail" />
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <a href="images/pics/9.jpg" data-title="First Title" data-lightbox="Random">
+                        <img src="images/pics/9.jpg" width="200px" class="img-thumbnail" />
+                    </a>
+                </div>
+                <div class="col-lg-3">
+                    <a href="images/pics/10.jpg" data-title="First Title" data-lightbox="Random">
+                        <img src="images/pics/10.jpg" width="200px" class="img-thumbnail" />
+                    </a>
+                </div>
+                <div class="col-lg-3">
+                    <a href="images/pics/11.jpg" data-title="First Title" data-lightbox="Random">
+                        <img src="images/pics/11.jpg" width="200px" class="img-thumbnail" />
+                    </a>
+                </div>
+                <div class="col-lg-3">
+                    <a href="images/pics/4.jpg" data-title="First Title" data-lightbox="Random">
+                        <img src="images/pics/4.jpg" width="200px" class="img-thumbnail" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--
         <ul class="row">
             <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
-                <img src="images/ap_1.jpg" width="304" height="236">
+                <img src="images/pics/ap_1.jpg" width="304" height="236">
             </li>
             <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
                 <img src="images/ap_2.jpg" width="304" height="236">
@@ -115,7 +188,8 @@
                 <img src="images/hall3c.jpg" width="304" height="236">
             </li>
         </ul>
-    </div>
+        -->
+
     <footer>
         <div class="container>"
             <p>&copy; AP Voice Studios 2015</p>
@@ -135,6 +209,8 @@
     <script type="text/javascript" src="js/play-video.js"></script>
     <!-- Call Youtube Video Fix -->
     <script type="text/javascript" src="js/call-player.js"></script>
+        <!-- Call Lightbox -->
+    <script type="text/javascript" src="js/lightbox.min.js"></script>
     <script type="text/javascript">
        $(document).ready(function(){
            $('li img').on('click',function(){
