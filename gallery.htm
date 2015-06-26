@@ -143,42 +143,6 @@
             </div>
         </div>
     </div>
-
-    <!--
-        <ul class="row">
-            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
-                <img src="images/pics/ap_1.jpg" width="304" height="236">
-            </li>
-            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
-                <img src="images/ap_2.jpg" width="304" height="236">
-            </li>
-            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
-                <img src="images/ap_3.jpg" width="304" height="236">
-            </li>
-            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
-                <img src="images/hall.jpg" width="304" height="236">
-            </li>
-            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
-                <img src="images/hall1.jpg" width="304" height="236">
-            </li>
-            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
-                <img src="images/hall2.jpg" width="304" height="236">
-            </li>
-            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
-                <img src="images/hall3.jpg" width="304" height="236">
-            </li>
-            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
-                <img src="images/hall3a.jpg" width="304" height="236">
-            </li>
-            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
-                <img src="images/hall3b.jpg" width="304" height="236">
-            </li>
-            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
-                <img src="images/hall3c.jpg" width="304" height="236">
-            </li>
-        </ul>
-        -->
-
     <footer>
         <div class="container>"
             <p>&copy; AP Voice Studios 2015</p>
@@ -194,26 +158,7 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
-    <!-- YouTube Video Fix -->
-    <script type="text/javascript" src="js/play-video.js"></script>
-    <!-- Call Youtube Video Fix -->
-    <script type="text/javascript" src="js/call-player.js"></script>
-        <!-- Call Lightbox -->
+    <!-- Call Lightbox -->
     <script type="text/javascript" src="js/lightbox.min.js"></script>
-    <script type="text/javascript">
-       $(document).ready(function(){
-           $('li img').on('click',function(){
-                var src = $(this).attr('src');
-                var img = '<img src="' + src + '" class="img-responsive"/>';
-                $('#myModal').modal();
-                $('#myModal').on('shown.bs.modal', function(){
-                    $('#myModal .modal-body').html(img);
-                });
-                $('#myModal').on('hidden.bs.modal', function(){
-                    $('#myModal .modal-body').html('');
-                });
-           });  
-        })
-    </script>
 </body>
 </html>
